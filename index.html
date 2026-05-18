@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#120d0b" />
+    <title>Letters You'll Never Forget</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Reem+Kufi+Ink:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="intro-locked">
+    <div class="grain" aria-hidden="true"></div>
+    <div class="soft-vignette" aria-hidden="true"></div>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="desk-scene" aria-hidden="true">
+          <div class="moon-card"></div>
+          <div class="photo-strip">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="wax-seal"></div>
+          <div class="letter-stack">
+            <div class="paper paper-back"></div>
+            <div class="paper paper-front">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">written after midnight</p>
+          <h1>Letters You'll Never Forget</h1>
+          <p>Some people become part of your heart quietly, then nothing feels the same.</p>
+          <button class="open-button" type="button" data-open-letter>
+            Open Letter
+          </button>
+        </div>
+      </section>
+
+      <section class="intro reveal" id="intro">
+        <div class="section-inner intro-grid">
+          <div>
+            <p class="script-label">before the letter</p>
+            <h2>A quiet place for the things that stayed.</h2>
+          </div>
+          <p>
+            There are people you do not simply meet. They become part of your memory,
+            your quiet moments, and the small details you keep coming back to.
+          </p>
+        </div>
+      </section>
+
+      <section class="letter-section reveal" id="letter">
+        <div class="letter-wrap">
+          <aside class="letter-side" aria-hidden="true">
+            <span>01</span>
+            <span>kept words</span>
+          </aside>
+          <article class="letter-page">
+            <header class="letter-page__header">
+              <span>FOR ZANOUBAAA</span>
+              <span>FROM Mahmoud</span>
+            </header>
+            <div class="letter-copy" id="love-letter" lang="ar" dir="rtl" aria-live="polite">
+              <p>Loading the letter...</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="timeline reveal" id="memories">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="script-label">memory drawer</p>
+            <h2>Three Pieces I Saved</h2>
+          </div>
+          <div class="memory-grid" id="memory-grid"></div>
+        </div>
+      </section>
+
+      <section class="notes reveal" id="notes">
+        <div class="section-inner notes-grid">
+          <div class="section-heading stacked">
+            <p class="script-label">little reasons</p>
+            <h2>Things I Love About You</h2>
+          </div>
+          <div class="note-wall">
+            <button class="note" type="button">you make heavy days feel smaller</button>
+            <button class="note" type="button">your laugh changes the whole room</button>
+            <button class="note" type="button">you care in ways people remember</button>
+            <button class="note" type="button">you are honest even when it is hard</button>
+            <button class="note" type="button">your presence feels like a safe place</button>
+            <button class="note secret-note" type="button" aria-label="Hidden message">
+              click me
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="ending reveal" id="ending">
+        <div class="ending-letter">
+          <p class="script-label">one last line</p>
+          <h2>Some people stay with us in a way time cannot erase.</h2>
+          <p>
+            If love can exist in friendship, then maybe you are one of the purest forms of
+            it I have ever known.
+          </p>
+          <a class="back-link" href="#top">Read it again</a>
+        </div>
+      </section>
+    </main>
+
+    <button class="music-toggle" type="button" data-music-toggle aria-label="Music control">
+      Music
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

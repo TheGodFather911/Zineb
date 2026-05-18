@@ -1,0 +1,2 @@
+OK, for the love letter, it'll be stored in /content/love_letter.txt
+for the Memory Card they'll be stored in /content/cards/photo ; /content/cards/screenshot ; /content/cards/favorite_moment we'll only havbe those 3 cards
